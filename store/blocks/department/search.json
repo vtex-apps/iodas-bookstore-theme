@@ -1,0 +1,5 @@
+{
+  "store.search#department": {
+    "blocks": ["search-result-layout"]
+  }
+}

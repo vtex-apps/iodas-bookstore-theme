@@ -14,18 +14,6 @@
     }
   },
 
-  "store.search#department": {
-    "blocks": ["search-result-layout"]
-  },
-
-  "store.search#category": {
-    "blocks": ["search-result-layout"]
-  },
-
-  "store.search#subcategory": {
-    "blocks": ["search-result-layout"]
-  },
-
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",

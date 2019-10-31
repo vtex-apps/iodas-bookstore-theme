@@ -1,0 +1,8 @@
+{
+  "store.search#category": {
+    "blocks": ["search-result-layout"]
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout"]
+  }
+}
