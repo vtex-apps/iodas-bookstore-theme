@@ -44,7 +44,7 @@
   "header-row#3-desktop": {
     "children": [
       "logo#desktop",
-      "menu#header-main",
+      "menu#header-main2",
       "header-spacer",
       "search-bar",
       "login",

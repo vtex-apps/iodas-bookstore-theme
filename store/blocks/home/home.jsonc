@@ -96,5 +96,23 @@
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
+  },
+
+  "slider-layout#brands": {
+    "children": [
+
+    ],
+    "props": {
+        "showNavigationArrows": "mobileOnly",
+        "showPaginationDots": "mobileOnly",
+        "infinite": true,
+        "navigationStep": 1,
+        "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "phone": 1
+        }
+    }
   }
+
 }
