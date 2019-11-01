@@ -50,7 +50,8 @@
   },
   "image#submenu-image-livros": {
     "props": {
-      "maxWidth": "300px"
+      "maxWidth": "300px",
+      "src": "https://i.pinimg.com/originals/2c/fc/93/2cfc93d7665f5d7728782700e50596e3.png"
     }
   },
 
@@ -184,11 +185,6 @@
         "text": "Papelaria"
       }
     }
-  },
-  "submenu#papelaria": {
-    "children": [
-      "flex-layout.row#submenu"
-    ]
   },
   "menu-item#ebooks": {
     "blocks": [
