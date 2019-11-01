@@ -191,6 +191,9 @@
         "autoplaySpeed": 5,
         "autoplay": true,
         "banners": [
+            {
+                "image": "https://files.slack.com/files-pri/T02BCPD0X-FPPLM59QS/banner_departamento_livro.png"
+            }
         ],
         "height": 480,
         "showArrows": false,

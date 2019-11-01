@@ -20,7 +20,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/livros",
+        "href": "/books/d",
         "noFollow": false,
         "tagTitle": "Livros",
         "text": "Livros"
@@ -170,7 +170,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/papelaria",
+        "href": "/office-supplies/d",
         "noFollow": false,
         "tagTitle": "Papelaria",
         "text": "Papelaria"
@@ -188,7 +188,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/ebooks",
+        "href": "/ebooks/d",
         "noFollow": false,
         "tagTitle": "Ebooks",
         "text": "Ebooks"
@@ -206,7 +206,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/eletronicos",
+        "href": "/notebooks---pens/d",
         "noFollow": false,
         "tagTitle": "Eletrônicos",
         "text": "Eletrônicos"
