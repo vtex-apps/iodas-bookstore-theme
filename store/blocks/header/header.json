@@ -64,6 +64,9 @@
     ]
   },
   "menu-item#departments": {
+    "blocks": [
+      "submenu#departments"
+    ],
     "props": {
       "id": "menu-item-departments",
       "type": "custom",
@@ -74,7 +77,83 @@
         "href": "/departments",
         "noFollow": true,
         "tagTitle": "Departments",
-        "text": "Departments"
+        "text": "Departamentos"
+      }
+    }
+  },
+  "submenu#departments": {
+    "children": [
+      "menu#department-list"
+    ]
+  },
+  "menu#department-list": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#books",
+      "menu-item#ebooks",
+      "menu-item#office-supplies",
+      "menu-item#eletronics"
+    ]
+  },
+  "menu-item#books": {
+    "props": {
+      "id": "menu-item-department-books",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livros",
+        "noFollow": true,
+        "tagTitle": "Books",
+        "text": "Livros"
+      }
+    }
+  },
+  "menu-item#ebooks": {
+    "props": {
+      "id": "menu-item-department-ebooks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ebooks",
+        "noFollow": true,
+        "tagTitle": "Ebooks",
+        "text": "Ebooks"
+      }
+    }
+  },
+  "menu-item#eletronics": {
+    "props": {
+      "id": "menu-item-department-eletronics",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletronics",
+        "noFollow": true,
+        "tagTitle": "Eletronics",
+        "text": "Eletrônicos"
+      }
+    }
+  },
+  "menu-item#office-supplies": {
+    "props": {
+      "id": "menu-item-department-office-supplies",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/office-supplies",
+        "noFollow": true,
+        "tagTitle": "Office Supplies",
+        "text": "Papelaria"
       }
     }
   },
@@ -89,7 +168,7 @@
         "href": "/highlights",
         "noFollow": true,
         "tagTitle": "Highlights",
-        "text": "Highlights"
+        "text": "Livros"
       }
     }
   },
@@ -104,7 +183,7 @@
         "href": "/brands",
         "noFollow": true,
         "tagTitle": "Brands",
-        "text": "Brands"
+        "text": "Marcas"
       }
     }
   },
