@@ -24,7 +24,9 @@
     "props": {
       "titleText": "QUEM VIU, VIU TAMBÉM",
       "maxItems": "4",
-      "paginationDotsVisibility": "hidden"      
+      "paginationDotsVisibility": "hidden",  
+      "collection": "137",
+      "showTitle": true   
     }
   },
 
@@ -132,7 +134,7 @@
       "blockClass": "product-main",
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 15
+      "paddingBottom": 9
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },

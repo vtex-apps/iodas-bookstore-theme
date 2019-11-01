@@ -101,5 +101,16 @@
 }
 
 .productDescriptionContainer {
-  margin: 5px 0;
+  margin: 35px 0;
+  text-transform: uppercase;
+}
+
+.productDescriptionContainer .h-auto {
+  color: #000 !important;
+}
+
+.productNameContainer span {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: xx-large;
 }
