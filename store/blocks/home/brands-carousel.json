@@ -1,0 +1,68 @@
+{
+  "slider-layout#brands-carousel": {
+    "title": "Carrossel de marcas",
+    "children": [
+      "image#brand-1",
+      "image#brand-2",
+      "image#brand-3",
+      "image#brand-4",
+      "image#brand-5",
+      "image#brand-6",
+      "image#brand-7"
+    ],
+    "props": {
+      "blockClass": "brand-carousel",
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "showPaginationDots": "never",
+      "navigationStep": 1,
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 5,
+        "phone": 3
+      }
+    }
+  },
+  "image#brand-1": {
+    "props": {
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_Pokemon_Go-05_1320036___26da36cf7ace52fdcb809b6f07786bd5.png",
+      "maxHeight": "128px"
+    }
+  },
+  "image#brand-2": {
+    "props": {
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_Pokemon_Go-10_1320031___651a75ea2ebf5ffd4192f4cdf29b0094.png",
+      "maxHeight": "128px"
+    }
+  },
+  "image#brand-3": {
+    "props": {
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_Pokemon_Go-08_1320033___ad4584d2fc2207423c35d67c7a3b0537.png",
+      "maxHeight": "128px"
+    }
+  },
+  "image#brand-4": {
+    "props": {
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_Pokemon_Go-03_1320038___10d96e1640521c3c58515e1e2fd3fc4b.png",
+      "maxHeight": "128px"
+    }
+  },
+  "image#brand-5": {
+    "props": {
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_Pokemon_Go-09_1320032___940bf5425742d87e3d6374e93ebb327f.png",
+      "maxHeight": "128px"
+    }
+  },
+  "image#brand-6": {
+    "props": {
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_Pokemon_Go-04_1320037___97fe33789e9eecaf351da427bf73ee72.png",
+      "maxHeight": "128px"
+    }
+  },
+  "image#brand-7": {
+    "props": {
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_Pokemon_Go-07_1320034___46b0d8c3b993bd5e9fbecce1ff417228.png",
+      "maxHeight": "128px"
+    }
+  }
+}

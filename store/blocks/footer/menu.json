@@ -389,5 +389,184 @@
         "text": "Cropped"
       }
     }
+  },
+
+  "menu#footer-duvidas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#footer-faq",
+      "menu-item#formas-pagamento",
+      "menu-item#formas-entrega",
+      "menu-item#devolucao"
+    ]
+  },
+  "menu-item#footer-faq": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Perguntas Frequentes",
+        "text": "Perguntas Frequentes"
+      }
+    }
+  },
+  "menu-item#formas-pagamento": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Formas de Pagamento",
+        "text": "Formas de Pagamento"
+      }
+    }
+  },
+  "menu-item#formas-entrega": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Formas de Entrega",
+        "text": "Formas de Entrega"
+      }
+    }
+  },
+  "menu-item#devolucao": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Trocas e Devolução",
+        "text": "Trocas e Devolução"
+      }
+    }
+  },
+  "menu#footer-atendimento": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#fale-conosco",
+      "menu-item#meus-pedidos",
+      "menu-item#lojas"
+    ]
+  },
+  "menu-item#fale-conosco": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
+      }
+    }
+  },
+  "menu-item#meus-pedidos": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Meus pedidos",
+        "text": "Meus pedidos"
+      }
+    }
+  },
+  "menu-item#lojas": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Encontre nossas lojas",
+        "text": "Encontre nossas lojas"
+      }
+    }
+  },
+  "menu#footer-institucional": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#historia",
+      "menu-item#trabalhe-conosco",
+      "menu-item#sustentabilidade",
+      "menu-item#nosso-blog"
+    ]
+  },
+  "menu-item#historia": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Nossa história",
+        "text": "Nossa história"
+      }
+    }
+  },
+  "menu-item#trabalhe-conosco": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Trabalhe Conosco",
+        "text": "Trabalhe Conosco"
+      }
+    }
+  },
+  "menu-item#sustentabilidade": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Sustentabilidade",
+        "text": "Sustentabilidade"
+      }
+    }
+  },
+  "menu-item#nosso-blog": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Visite o nosso blog",
+        "text": "Visite o nosso blog"
+      }
+    }
+  },
+  "menu#footer-links": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#privacidade",
+      "menu-item#codigo-defesa-consumidor",
+      "menu-item#termos",
+      "menu-item#procon"
+    ]
+  },
+  "menu-item#privacidade": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Política de Privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+  "menu-item#codigo-defesa-consumidor": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Código de Defesa do Consumidor",
+        "text": "Código de Defesa do Consumidor"
+      }
+    }
+  },
+  "menu-item#termos": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Termos de Uso",
+        "text": "Termos de Uso"
+      }
+    }
+  },
+  "menu-item#procon": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Procon",
+        "text": "Procon"
+      }
+    }
   }
 }
