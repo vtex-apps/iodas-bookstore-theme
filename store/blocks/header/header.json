@@ -47,6 +47,7 @@
       "menu#header-main",
       "header-spacer",
       "search-bar",
+      "login",
       "minicart"
     ],
     "props": {
@@ -59,8 +60,8 @@
     "children": [
       "menu-item#departments",
       "menu-item#highlights",
-      "menu-item#brands",
-      "menu-item#blog"
+      "menu-item#blog",
+      "menu-item#black-friday"
     ]
   },
   "menu-item#departments": {
@@ -277,7 +278,7 @@
   },
   "menu-item#brands": {
     "blocks": [
-
+      "submenu#brands"
     ],
     "props": {
       "id": "menu-item-brands",
@@ -293,6 +294,66 @@
       }
     }
   },
+  "submenu#brands": {
+    "children": [
+      "menu#brand-list"
+    ]
+  },
+  "menu#brand-list": {
+    "children": [
+      "menu-item#brand-one",
+      "menu-item#brand-two",
+      "menu-item#brand-three"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#brand-one": {
+    "props": {
+      "id": "menu-item-brand-one",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brand-one",
+        "noFollow": true,
+        "tagTitle": "Brand One",
+        "text": "Marca 1"
+      }
+    }
+  },
+  "menu-item#brand-two": {
+    "props": {
+      "id": "menu-item-brand-two",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brand-two",
+        "noFollow": true,
+        "tagTitle": "Brand Two",
+        "text": "Marca 2"
+      }
+    }
+  },
+  "menu-item#brand-three": {
+    "props": {
+      "id": "menu-item-brand-three",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brand-three",
+        "noFollow": true,
+        "tagTitle": "Brand Three",
+        "text": "Marca 3"
+      }
+    }
+  },
   "menu-item#blog": {
     "props": {
       "id": "menu-item-blog",
@@ -305,6 +366,21 @@
         "noFollow": true,
         "tagTitle": "Blog",
         "text": "Blog"
+      }
+    }
+  },
+  "menu-item#black-friday": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/black-friday",
+        "noFollow": false,
+        "tagTitle": "Black Friday",
+        "text": "Black Friday"
       }
     }
   },
@@ -331,6 +407,16 @@
       "enableQuantitySelector": true,
       "maxQuantity": 10,
       "labelClasses": "gray"
+    }
+  },
+
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPraceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true
     }
   },
 
