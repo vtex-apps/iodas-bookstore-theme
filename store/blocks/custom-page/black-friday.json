@@ -1,0 +1,93 @@
+{
+  "store.custom#black-friday": {
+    "blocks": [
+      "flex-layout.row#bf-banner",
+      "flex-layout.row#bf-shelf",
+      "flex-layout.row#bf-search"
+    ]
+  },
+
+  "flex-layout.row#bf-banner": {
+    "children": [
+      "flex-layout.col#image-bf",      
+      "flex-layout.col#text-bf"
+    ],
+    "props": {
+      "blockClass": "bf-lp-banner",
+      "paddingTop": 7,
+      "paddingBottom": 7
+    }
+  },
+
+  "flex-layout.col#text-bf": {
+    "children": [
+      "rich-text#bf-title",
+      "rich-text#bf-text"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#bf-title": {
+    "props": {
+      "text": "# A BLACK VEM AÍ",
+      "blockClass": "bf-lp-text"
+    }
+  },
+
+  "rich-text#bf-text": {
+    "props": {
+      "text": "**O que é?** \n Black Friday é o dia que inaugura a temporada de compras natalícias com significativas promoções em muitas lojas retalhistas e grandes armazéns.",
+      "blockClass": "bf-lp-text"
+    }
+  },
+  
+  "flex-layout.col#image-bf": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#bf-counter"    
+    ]
+  },
+
+  "image#bf-counter": {
+    "props": {
+      "src": "https://gen.sendtric.com/countdown/wch3xdgn75"
+    }
+  },
+
+  "flex-layout.row#bf-shelf": {
+    "children": [
+      "flex-layout.col#bf-shelf"
+    ]
+  },
+
+  "flex-layout.col#bf-shelf": {
+    "children": [
+      "rich-text#bf-shelf"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#bf-shelf": {
+    "props": {
+      "text": "### Confira algumas promoções que antecipamos pra você",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.row#bf-search": {
+    "children": [
+      "search-result"
+    ],
+    "props": {
+      "blockClass": "bf-lp-search"
+    }
+  }
+}

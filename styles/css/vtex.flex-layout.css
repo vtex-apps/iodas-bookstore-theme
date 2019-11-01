@@ -35,3 +35,8 @@
 .flexCol--switcherMobileCol {
   width: 20%;
 }
+
+.flexRow--bf-lp-banner {
+  background: url(https://www.iwantwallpaper.co.uk/images/arthouse-vip-black-brick-wall-pattern-faux-stone-effect-motif-mural-wallpaper-623007-p2130-4065_image.jpg);
+  background-size: "150px";
+}

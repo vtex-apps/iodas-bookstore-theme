@@ -5,7 +5,8 @@
       "flex-layout.row#product-main",
       "shelf.relatedProducts",
       "product-reviews",
-      "product-questions-and-answers"
+      "product-questions-and-answers",
+      "flex-layout.row#product-description"
     ]
   },
   "flex-layout.row#product-breadcrumb": {
@@ -65,15 +66,15 @@
     "children": [
       "product-name",
       "product-rating-summary",
-      "product-price#product-details",
-      "product-separator",
-      "product-quantity",
       "product-identifier.product",
       "sku-selector",
       "product-assembly-options",
+      "product-price#product-details",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator",
+      "product-separator",
+      "product-description",
+      "product-separator",
       "share#default"
     ]
   },

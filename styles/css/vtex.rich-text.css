@@ -16,6 +16,10 @@
   justify-content: center;
 }
 
+.container--bf-lp-text {
+  color: #fff;
+}
+
 .container--question .paragraph {
   text-align: center;
   max-width: 540px;
