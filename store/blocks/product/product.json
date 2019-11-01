@@ -1,7 +1,7 @@
 {
   "store.product": {
     "children": [
-      "stack-layout#product-outdoor", 
+      "stack-layout#product-outdoor",
       "flex-layout.row#product-main",
       "flex-layout.row#product-outdoor-shelf"
     ]
@@ -24,14 +24,14 @@
     "props": {
       "titleText": "QUEM VIU, VIU TAMBÉM",
       "maxItems": "4",
-      "paginationDotsVisibility": "hidden"      
+      "paginationDotsVisibility": "hidden"
     }
   },
 
   "stack-layout#product-outdoor": {
     "children": [
-      "flex-layout.row#product-logo", 
-      "flex-layout.row#product-first-layer", 
+      "flex-layout.row#product-logo",
+      "flex-layout.row#product-first-layer",
       "flex-layout.row#product-second-layer"
     ],
     "props": {
@@ -52,7 +52,7 @@
 
   "flex-layout.col#product-logo": {
     "children": [
-      "image#product-logo"    
+      "image#product-logo"
     ],
     "props": {
       "horizontalAlign": "center",
@@ -79,7 +79,7 @@
 
   "flex-layout.col#product-first-layer": {
     "children": [
-      "image#product-first-layer"    
+      "image#product-first-layer"
     ],
     "props": {
       "horizontalAlign": "center",
@@ -132,7 +132,7 @@
       "blockClass": "product-main",
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 15
+      "paddingBottom": 9
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
