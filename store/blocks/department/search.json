@@ -1,5 +1,5 @@
 {
   "store.search#department": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["carousel#store-search", "search-result-layout"]
   }
 }

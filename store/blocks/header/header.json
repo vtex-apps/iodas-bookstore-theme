@@ -60,7 +60,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/LOGO_THEBOOKSTORE___fc0ce51f3ffa0ffc16f9d4e5402096e5.png",
       "width": "180"
     }
   },
@@ -94,7 +94,8 @@
 
   "header-layout.mobile": {
     "children": [
-      "header-row#1-mobile"
+      "header-row#1-mobile",
+      "header-row#2-mobile"
     ]
   },
   "header-row#1-mobile": {
@@ -118,9 +119,12 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-clothing",
-      "menu-item#category-decoration",
-      "menu-item#custom-sale"
+      "menu-item#livros-mobile",
+      "menu-item#papelaria-mobile",
+      "menu-item#ebooks-mobile",
+      "menu-item#eletronicos-mobile",
+      "menu-item#blog",
+      "menu-item#black-friday"
     ],
     "props": {
       "orientation": "vertical"
@@ -131,8 +135,13 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "70"
+      "url": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/LOGO_THEBOOKSTORE___fc0ce51f3ffa0ffc16f9d4e5402096e5.png",
+      "width": "180"
     }
+  },
+  "header-row#2-mobile": {
+    "children": [
+      "search-bar"
+    ]
   }
 }

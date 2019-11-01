@@ -10,7 +10,7 @@
       "blockClass": "deals",
       "infinite": true,
       "showNavigationArrows": "mobileOnly",
-      "showPaginationDots": "mobileOnly",
+      "showPaginationDots": "never",
       "navigationStep": 1,
       "itemsPerPage": {
         "desktop": 4,
@@ -27,13 +27,13 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_rocket_2120156___e884f125797ff490dd981f81480b0fd0.png",
+      "maxHeight": "48px"
     }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "ENTREGA FOGUETE*<br>*confira o regulamento*",
       "blockClass": "deals"
     }
   },
@@ -45,13 +45,13 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_truck_115775___654edfa0a3266b14f9dc2179b5e178df.png",
+      "maxHeight": "48px"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "FRETE GRÁTIS*<br>*confira o regulamento*",
       "blockClass": "deals"
     }
   },
@@ -63,13 +63,13 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-      "maxHeight": "24px"
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_business_finance_money-38_2784269___4bfde021b43419e0297c96bc1b6506af.png",
+      "maxHeight": "48px"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "10X SEM JUROS*<br>*confira o regulamento*",
       "blockClass": "deals"
     }
   },
@@ -81,13 +81,13 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/iconfinder_thefreeforty_shop_1243706___3afb6534ba6abe44624bef0c09b97f2a.png",
+      "maxHeight": "48px"
     }
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "RETIRADA EM LOJA*<br>*confira o regulamento*",
       "blockClass": "deals"
     }
   }

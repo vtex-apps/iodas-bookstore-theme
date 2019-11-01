@@ -11,7 +11,7 @@
   },
   "menu-item#livros": {
     "blocks": [
-      "submenu#main"
+      "submenu#livros"
     ],
     "props": {
       "id": "menu-item-livros",
@@ -20,44 +20,140 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/livros",
+        "href": "/books/d",
         "noFollow": false,
         "tagTitle": "Livros",
         "text": "Livros"
       }
     }
   },
-  "submenu#main": {
-    "children": [
-      "flex-layout.row#submenu"
-    ]
-  },
   "submenu#livros": {
     "children": [
-      "flex-layout.row#submenu"
-    ]
-  },
-  "flex-layout.row#submenu": {
-    "children": [
-      "flex-layout.col#submenu-menu",
-      "flex-layout.col#submenu-image"
-    ]
-  },
-  "flex-layout.col#submenu-menu": {
-    "children": [
-      "menu#livros-categorias"
-    ]
-  },
-  "flex-layout.col#submenu-image": {
-    "children": [
-      "image#submenu-ad"
-    ]
-  },
-  "image#submenu-ad": {
+      "flex-layout.row#submenu-livros"
+    ],
     "props": {
-      "maxWidth": "300px"
+      "width": "auto"
     }
   },
+  "flex-layout.row#submenu-livros": {
+    "children": [
+      "flex-layout.col#submenu-menu-livros",
+      "flex-layout.col#submenu-image-livros"
+    ]
+  },
+  "flex-layout.col#submenu-menu-livros": {
+    "children": [
+      "menu#sub-livros-mobile"
+    ]
+  },
+  "flex-layout.col#submenu-image-livros": {
+    "children": [
+      "image#submenu-image-livros"
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+  "image#submenu-image-livros": {
+    "props": {
+      "maxWidth": "300px",
+      "src": "https://i.pinimg.com/originals/2c/fc/93/2cfc93d7665f5d7728782700e50596e3.png"
+    }
+  },
+
+  "submenu#papelaria": {
+    "children": [
+      "flex-layout.row#submenu-papelaria"
+    ]
+  },
+  "flex-layout.row#submenu-papelaria": {
+    "children": [
+      "flex-layout.col#submenu-menu-papelaria",
+      "flex-layout.col#submenu-image-papelaria"
+    ]
+  },
+  "flex-layout.col#submenu-menu-papelaria": {
+    "children": [
+      "menu#sub-papelaria-mobile"
+    ]
+  },
+  "flex-layout.col#submenu-image-papelaria": {
+    "children": [
+      "image#submenu-image-papelaria"
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+  "image#submenu-image-papelaria": {
+    "props": {
+      "maxWidth": "300px",
+      "src": "https://uploaddeimagens.com.br/images/002/472/310/full/papelaria.png?1572621942"
+    }
+  },
+
+  "submenu#ebooks": {
+    "children": [
+      "flex-layout.row#submenu-ebooks"
+    ]
+  },
+  "flex-layout.row#submenu-ebooks": {
+    "children": [
+      "flex-layout.col#submenu-menu-ebooks",
+      "flex-layout.col#submenu-image-ebooks"
+    ]
+  },
+  "flex-layout.col#submenu-menu-ebooks": {
+    "children": [
+      "menu#sub-ebooks-mobile"
+    ]
+  },
+  "flex-layout.col#submenu-image-ebooks": {
+    "children": [
+      "image#submenu-image-ebooks"
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+  "image#submenu-image-ebooks": {
+    "props": {
+      "maxWidth": "300px",
+      "src": "https://uploaddeimagens.com.br/images/002/472/318/full/ebook.png?1572622144"
+    }
+  },
+
+  "submenu#eletronicos": {
+    "children": [
+      "flex-layout.row#submenu-eletronicos"
+    ]
+  },
+  "flex-layout.row#submenu-eletronicos": {
+    "children": [
+      "flex-layout.col#submenu-menu-eletronicos",
+      "flex-layout.col#submenu-image-eletronicos"
+    ]
+  },
+  "flex-layout.col#submenu-menu-eletronicos": {
+    "children": [
+      "menu#sub-eletronicos-mobile"
+    ]
+  },
+  "flex-layout.col#submenu-image-eletronicos": {
+    "children": [
+      "image#submenu-image-eletronicos"
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+  "image#submenu-image-eletronicos": {
+    "props": {
+      "maxWidth": "300px",
+      "src": "https://uploaddeimagens.com.br/images/002/472/347/original/icon_game_video.png?1572622753"
+    }
+  },
+
   "menu#livros-categorias": {
     "props": {
       "orientation": "vertical"
@@ -65,7 +161,7 @@
   },
   "menu-item#papelaria": {
     "blocks": [
-      "submenu#main"
+      "submenu#papelaria"
     ],
     "props": {
       "id": "menu-item-papelaria",
@@ -74,21 +170,16 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/papelaria",
+        "href": "/office-supplies/d",
         "noFollow": false,
         "tagTitle": "Papelaria",
         "text": "Papelaria"
       }
     }
   },
-  "submenu#papelaria": {
-    "children": [
-      "flex-layout.row#submenu"
-    ]
-  },
   "menu-item#ebooks": {
     "blocks": [
-      "submenu#main"
+      "submenu#ebooks"
     ],
     "props": {
       "id": "menu-item-ebooks",
@@ -97,7 +188,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/ebooks",
+        "href": "/ebooks/d",
         "noFollow": false,
         "tagTitle": "Ebooks",
         "text": "Ebooks"
@@ -106,7 +197,7 @@
   },
   "menu-item#eletronicos": {
     "blocks": [
-      "submenu#main"
+      "submenu#eletronicos"
     ],
     "props": {
       "id": "menu-item-eletronicos",
@@ -115,7 +206,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/eletronicos",
+        "href": "/notebooks---pens/d",
         "noFollow": false,
         "tagTitle": "Eletrônicos",
         "text": "Eletrônicos"
@@ -145,7 +236,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/black-friday",
+        "href": "/blackfriday",
         "noFollow": false,
         "tagTitle": "Black Friday",
         "text": "Black Friday"
