@@ -10,7 +10,7 @@
       "blockClass": "deals",
       "infinite": true,
       "showNavigationArrows": "mobileOnly",
-      "showPaginationDots": "mobileOnly",
+      "showPaginationDots": "never",
       "navigationStep": 1,
       "itemsPerPage": {
         "desktop": 4,

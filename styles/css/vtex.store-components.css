@@ -2,7 +2,7 @@
   background-color: #F71963;
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 12px;
   text-decoration: none;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .newsletter {
-  background: #6f99ad url("https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/newsletter_bg___bb5c1a5480ca9c64892e0b2a00e6c20c.png") no-repeat;
+  background: url("https://uploaddeimagens.com.br/images/002/472/280/original/background_newsletter_final.jpg?1572620965") no-repeat;
   background-size: 100%;
   max-width: 100%;
   margin: 0 auto;
