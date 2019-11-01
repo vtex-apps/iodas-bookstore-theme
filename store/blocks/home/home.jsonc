@@ -4,6 +4,7 @@
       "carousel#home",
       "slider-layout#benefits",
       "shelf#lancamentos",
+      "slider-layout#special-cards",
       "newsletter"
     ]
   },

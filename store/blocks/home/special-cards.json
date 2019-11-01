@@ -1,0 +1,43 @@
+{
+  "slider-layout#special-cards": {
+    "title": "Cards Especiais",
+    "children": [
+      "image#special-card-1",
+      "image#special-card-2",
+      "image#special-card-3",
+      "image#special-card-4"
+    ],
+    "props": {
+      "blockClass": "special-cards",
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "showPaginationDots": "mobileOnly",
+      "navigationStep": 1,
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 1
+      }
+    }
+  },
+  "image#special-card-1": {
+    "props": {
+      "maxHeight": "200px"
+    }
+  },
+  "image#special-card-2": {
+    "props": {
+      "maxHeight": "200px"
+    }
+  },
+  "image#special-card-3": {
+    "props": {
+      "maxHeight": "200px"
+    }
+  },
+  "image#special-card-4": {
+    "props": {
+      "maxHeight": "200px"
+    }
+  }
+}
