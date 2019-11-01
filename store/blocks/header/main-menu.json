@@ -30,7 +30,10 @@
   "submenu#livros": {
     "children": [
       "flex-layout.row#submenu-livros"
-    ]
+    ],
+    "props": {
+      "width": "auto"
+    }
   },
   "flex-layout.row#submenu-livros": {
     "children": [
@@ -46,7 +49,10 @@
   "flex-layout.col#submenu-image-livros": {
     "children": [
       "image#submenu-image-livros"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
   },
   "image#submenu-image-livros": {
     "props": {
@@ -74,11 +80,15 @@
   "flex-layout.col#submenu-image-papelaria": {
     "children": [
       "image#submenu-image-papelaria"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
   },
   "image#submenu-image-papelaria": {
     "props": {
-      "maxWidth": "300px"
+      "maxWidth": "300px",
+      "src": "https://uploaddeimagens.com.br/images/002/472/310/full/papelaria.png?1572621942"
     }
   },
 
@@ -101,11 +111,15 @@
   "flex-layout.col#submenu-image-ebooks": {
     "children": [
       "image#submenu-image-ebooks"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
   },
   "image#submenu-image-ebooks": {
     "props": {
-      "maxWidth": "300px"
+      "maxWidth": "300px",
+      "src": "https://uploaddeimagens.com.br/images/002/472/318/full/ebook.png?1572622144"
     }
   },
 
@@ -128,41 +142,18 @@
   "flex-layout.col#submenu-image-eletronicos": {
     "children": [
       "image#submenu-image-eletronicos"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
   },
   "image#submenu-image-eletronicos": {
     "props": {
-      "maxWidth": "300px"
+      "maxWidth": "300px",
+      "src": "https://uploaddeimagens.com.br/images/002/472/347/original/icon_game_video.png?1572622753"
     }
   },
 
-
-  "submenu#main": {
-    "children": [
-      "flex-layout.row#submenu"
-    ]
-  },
-  "flex-layout.row#submenu": {
-    "children": [
-      "flex-layout.col#submenu-menu",
-      "flex-layout.col#submenu-image"
-    ]
-  },
-  "flex-layout.col#submenu-menu": {
-    "children": [
-      "menu#livros-categorias"
-    ]
-  },
-  "flex-layout.col#submenu-image": {
-    "children": [
-      "image#submenu-ad"
-    ]
-  },
-  "image#submenu-ad": {
-    "props": {
-      "maxWidth": "300px"
-    }
-  },
   "menu#livros-categorias": {
     "props": {
       "orientation": "vertical"
@@ -245,7 +236,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/black-friday",
+        "href": "/blackfriday",
         "noFollow": false,
         "tagTitle": "Black Friday",
         "text": "Black Friday"
