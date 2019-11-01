@@ -22,26 +22,26 @@
   },
   "image#special-card-1": {
     "props": {
-      "maxHeight": "200px",
-      "maxWidth": "25%"
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/ebooks_home___336cc1c2de5044900bca441aad43774f.jpg",
+      "maxHeight": "400px"
     }
   },
   "image#special-card-2": {
     "props": {
-      "maxHeight": "200px",
-      "maxWidth": "25%"
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/games_home___e668b875196382345949f12e985ff2ee.png",
+      "maxHeight": "400px"
     }
   },
   "image#special-card-3": {
     "props": {
-      "maxHeight": "200px",
-      "maxWidth": "25%"
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/stamplers___e9dfd3b5af47e879320c2fecb46a7af9.png",
+      "maxHeight": "400px"
     }
   },
   "image#special-card-4": {
     "props": {
-      "maxHeight": "200px",
-      "maxWidth": "25%"
+      "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/backtoschool_home___79a24a92eb54aa6c05d66c17e905f452.png",
+      "maxHeight": "400px"
     }
   }
 }

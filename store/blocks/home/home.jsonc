@@ -6,6 +6,7 @@
       "shelf#lancamentos",
       "slider-layout#special-cards",
       "image#special-campaign",
+      "shelf#mais-vendidos",
       "newsletter"
     ]
   },
@@ -44,6 +45,21 @@
         }
       }
     },
+  "shelf#mais-vendidos": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByReleaseDateDESC",
+          "paginationDotsVisibility": "hidden",
+          "productList": {
+            "maxItems": 12,
+            "itemsPerPage": 4,
+            "minItemsPerPage": 1.5,
+            "scroll": "BY_PAGE",
+            "arrows": true,
+            "titleText": "Mais vendidos"
+          }
+        }
+      },
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -75,6 +91,7 @@
   "image#special-campaign": {
     "title": "Campanha em destaque",
     "props": {
+        "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/comics_home___b2ed109e89768692cd1a5102acae05fb.jpg",
         "maxWidth": "100%"
     }
   }

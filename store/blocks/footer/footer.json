@@ -4,22 +4,36 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "flex-layout.row#footer-0-desktop",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
   },
-  "flex-layout.row#footer-1-desktop": {
+  "flex-layout.row#footer-0-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "image#footer-brand"
     ],
     "props": {
-      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  },
+  "image#footer-brand": {
+    "props": {
+      "src": "https://i.pinimg.com/originals/cf/41/f2/cf41f285d7f65240d92dd6fbf4c31ef9.png",
+      "maxHeight": "200px"
+    }
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "menu#footer-duvidas",
+      "menu#footer-atendimento",
+      "menu#footer-institucional",
+      "menu#footer-links"
+    ],
+    "props": {
+      "blockClass": "menu-footer-row",
       "paddingTop": 6,
       "paddingBottom": 3
     }
