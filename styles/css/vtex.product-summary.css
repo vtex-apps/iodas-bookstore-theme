@@ -3,9 +3,8 @@
   margin-top: -170px;
 }
 
-.container:hover img{
+.container:hover img {
   opacity: 0.5;
-  filter: alpha(opacity=50);
   z-index: -1;
 }
 

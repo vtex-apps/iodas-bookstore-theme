@@ -5,10 +5,18 @@
       "slider-layout#benefits",
       "shelf#lancamentos",
       "slider-layout#special-cards",
+      "slider-layout#brands-carousel",
       "image#special-campaign",
       "shelf#mais-vendidos",
       "newsletter"
     ]
+  },
+  "newsletter": {
+    "props": {
+        "label": "Receba nossas notícias :D",
+        "placeholder": "Seu email",
+        "submit": "ENVIAR"
+    }
   },
 
   "carousel#home": {
