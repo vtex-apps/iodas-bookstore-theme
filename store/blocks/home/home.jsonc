@@ -4,8 +4,8 @@
       "carousel#home",
       "slider-layout#benefits",
       "shelf#lancamentos",
-      "slider-layout#special-cards",
-      "slider-layout#brands-carousel",
+      "flex-layout.row#special-cards",
+      "flex-layout.row#brands-carousel",
       "image#special-campaign",
       "shelf#mais-vendidos",
       "newsletter"
@@ -16,6 +16,31 @@
         "label": "Receba nossas notícias :D",
         "placeholder": "Seu email",
         "submit": "ENVIAR"
+    }
+  },
+  
+  "flex-layout.row#special-cards": {
+    "children": [
+      "flex-layout.col#special-card-1",
+      "flex-layout.col#special-card-2",
+      "flex-layout.col#special-card-3",
+      "flex-layout.col#special-card-4"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "marginTop": "3",
+      "marginBottom": "3"
+    }
+  },
+
+  "flex-layout.row#brands-carousel": {
+    "children": [
+      "slider-layout#brands-carousel"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "marginTop": "3",
+      "marginBottom": "3"
     }
   },
 

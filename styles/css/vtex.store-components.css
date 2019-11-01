@@ -90,3 +90,8 @@
     max-height: 600px;
   }
 }
+
+.imageElement--home-special-card:hover {
+  transition: transform .5s ease;
+  transform: scale(1.10);
+}
