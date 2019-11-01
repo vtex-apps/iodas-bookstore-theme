@@ -18,8 +18,7 @@
 }
 
 .newsletter {
-  /*background-color: #03054E;*/
-  background: url("https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/newsletter_bg___bb5c1a5480ca9c64892e0b2a00e6c20c.png") no-repeat;
+  background: #6f99ad url("https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/newsletter_bg___bb5c1a5480ca9c64892e0b2a00e6c20c.png") no-repeat;
   background-size: 100%;
   max-width: 100%;
   margin: 0 auto;

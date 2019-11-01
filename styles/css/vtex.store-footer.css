@@ -9,3 +9,7 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.row {
+  background: #6f99ad;
+}

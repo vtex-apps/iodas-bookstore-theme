@@ -2,10 +2,15 @@
   position: relative;
   margin-top: -170px;
 }
-
+.container {
+  border: 1px solid #d2d2d2;
+  box-shadow: 1px 1px 4px 1px #e0e0e0;
+}
 .container:hover img {
   opacity: 0.5;
   z-index: -1;
+  transition: transform .5s ease;
+  transform: scale(1.25);
 }
 
 .buyButton {

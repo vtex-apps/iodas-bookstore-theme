@@ -6,16 +6,18 @@
       "image#brand-2",
       "image#brand-3",
       "image#brand-4",
-      "image#brand-5"
+      "image#brand-5",
+      "image#brand-6",
+      "image#brand-7"
     ],
     "props": {
       "blockClass": "brand-carousel",
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "mobileOnly",
       "showPaginationDots": "never",
       "navigationStep": 1,
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 7,
         "tablet": 5,
         "phone": 3
       }
