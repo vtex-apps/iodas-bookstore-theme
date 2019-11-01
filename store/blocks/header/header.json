@@ -177,8 +177,32 @@
   },
   "submenu#highlights": {
     "children": [
+      "flex-layout.row#highlight-row"
+    ]
+  },
+  "flex-layout.row#highlight-row":  {
+    "children": [
+      "flex-layout.col#highlight-menu",
+      "flex-layout.col#highlight-image"
+    ]
+  },
+  "flex-layout.col#highlight-menu": {
+    "children": [
       "menu#highlight-list"
     ]
+  },
+  "flex-layout.col#highlight-image": {
+    "children": [
+      "image#highligh-ad"
+    ]
+  },
+  "image#highligh-ad": {
+    "props": {
+      "src": "https://miro.medium.com/max/2625/1*-DoGFo87y7JZTHMDTfqsfw.jpeg",
+      "alt": "Highligh Ad",
+      "link": "/propaganda",
+      "maxWidth": "300px"
+    }
   },
   "menu#highlight-list": {
     "props": {
@@ -252,6 +276,9 @@
     }
   },
   "menu-item#brands": {
+    "blocks": [
+
+    ],
     "props": {
       "id": "menu-item-brands",
       "type": "custom",
