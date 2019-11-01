@@ -1,46 +1,65 @@
 {
-  "slider-layout#special-cards": {
+  "flex-layout.col#special-card-1": {
     "title": "Cards Especiais",
     "children": [
-      "image#special-card-1",
-      "image#special-card-2",
-      "image#special-card-3",
+      "image#special-card-1"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#special-card-2": {
+    "title": "Cards Especiais",
+    "children": [
+      "image#special-card-2"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#special-card-3": {
+    "title": "Cards Especiais",
+    "children": [
+      "image#special-card-3"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#special-card-4": {
+    "title": "Cards Especiais",
+    "children": [
       "image#special-card-4"
     ],
     "props": {
-      "blockClass": "special-cards",
-      "infinite": true,
-      "showNavigationArrows": "mobileOnly",
-      "showPaginationDots": "mobileOnly",
-      "navigationStep": 1,
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 4,
-        "phone": 1
-      }
+      "horizontalAlign": "center"
     }
   },
   "image#special-card-1": {
     "props": {
       "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/ebooks_home___336cc1c2de5044900bca441aad43774f.jpg",
+      "blockClass": "home-special-card",
       "maxHeight": "400px"
     }
   },
   "image#special-card-2": {
     "props": {
       "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/games_home___e668b875196382345949f12e985ff2ee.png",
+      "blockClass": "home-special-card",
       "maxHeight": "400px"
     }
   },
   "image#special-card-3": {
     "props": {
       "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/stamplers___e9dfd3b5af47e879320c2fecb46a7af9.png",
+      "blockClass": "home-special-card",
       "maxHeight": "400px"
     }
   },
   "image#special-card-4": {
     "props": {
       "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/backtoschool_home___79a24a92eb54aa6c05d66c17e905f452.png",
+      "blockClass": "home-special-card",
       "maxHeight": "400px"
     }
   }
