@@ -1,0 +1,155 @@
+{
+  "menu#header-main2": {
+    "children": [
+      "menu-item#livros",
+      "menu-item#papelaria",
+      "menu-item#ebooks",
+      "menu-item#eletronicos",
+      "menu-item#blog",
+      "menu-item#black-friday"
+    ]
+  },
+  "menu-item#livros": {
+    "blocks": [
+      "submenu#main"
+    ],
+    "props": {
+      "id": "menu-item-livros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livros",
+        "noFollow": false,
+        "tagTitle": "Livros",
+        "text": "Livros"
+      }
+    }
+  },
+  "submenu#main": {
+    "children": [
+      "flex-layout.row#submenu"
+    ]
+  },
+  "submenu#livros": {
+    "children": [
+      "flex-layout.row#submenu"
+    ]
+  },
+  "flex-layout.row#submenu": {
+    "children": [
+      "flex-layout.col#submenu-menu",
+      "flex-layout.col#submenu-image"
+    ]
+  },
+  "flex-layout.col#submenu-menu": {
+    "children": [
+      "menu#livros-categorias"
+    ]
+  },
+  "flex-layout.col#submenu-image": {
+    "children": [
+      "image#submenu-ad"
+    ]
+  },
+  "image#submenu-ad": {
+    "props": {
+      "maxWidth": "300px"
+    }
+  },
+  "menu#livros-categorias": {
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#papelaria": {
+    "blocks": [
+      "submenu#main"
+    ],
+    "props": {
+      "id": "menu-item-papelaria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/papelaria",
+        "noFollow": false,
+        "tagTitle": "Papelaria",
+        "text": "Papelaria"
+      }
+    }
+  },
+  "submenu#papelaria": {
+    "children": [
+      "flex-layout.row#submenu"
+    ]
+  },
+  "menu-item#ebooks": {
+    "blocks": [
+      "submenu#main"
+    ],
+    "props": {
+      "id": "menu-item-ebooks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ebooks",
+        "noFollow": false,
+        "tagTitle": "Ebooks",
+        "text": "Ebooks"
+      }
+    }
+  },
+  "menu-item#eletronicos": {
+    "blocks": [
+      "submenu#main"
+    ],
+    "props": {
+      "id": "menu-item-eletronicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletronicos",
+        "noFollow": false,
+        "tagTitle": "Eletrônicos",
+        "text": "Eletrônicos"
+      }
+    }
+  },
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#black-friday": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/black-friday",
+        "noFollow": false,
+        "tagTitle": "Black Friday",
+        "text": "Black Friday"
+      }
+    }
+  }
+}

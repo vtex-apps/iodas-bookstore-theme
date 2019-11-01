@@ -4,7 +4,7 @@
       "carousel#home",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
+      "slider-layout#benefits",
       "shelf#home",
       "info-card#home",
       "rich-text#question",
@@ -95,23 +95,6 @@
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
-    }
-  },
-
-  "slider-layout#brands": {
-    "children": [
-
-    ],
-    "props": {
-        "showNavigationArrows": "mobileOnly",
-        "showPaginationDots": "mobileOnly",
-        "infinite": true,
-        "navigationStep": 1,
-        "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 3,
-            "phone": 1
-        }
     }
   }
 

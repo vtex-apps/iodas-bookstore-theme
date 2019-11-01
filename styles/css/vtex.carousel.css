@@ -4,4 +4,5 @@
 
 .containerImg img {
   max-width: 1520px;
+  position: inherit;
 }
