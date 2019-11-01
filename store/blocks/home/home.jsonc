@@ -5,6 +5,7 @@
       "slider-layout#benefits",
       "shelf#lancamentos",
       "slider-layout#special-cards",
+      "image#special-campaign",
       "newsletter"
     ]
   },
@@ -68,6 +69,13 @@
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
+    }
+  },
+
+  "image#special-campaign": {
+    "title": "Campanha em destaque",
+    "props": {
+        "maxWidth": "100%"
     }
   }
 

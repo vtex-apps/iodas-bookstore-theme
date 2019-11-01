@@ -22,22 +22,26 @@
   },
   "image#special-card-1": {
     "props": {
-      "maxHeight": "200px"
+      "maxHeight": "200px",
+      "maxWidth": "25%"
     }
   },
   "image#special-card-2": {
     "props": {
-      "maxHeight": "200px"
+      "maxHeight": "200px",
+      "maxWidth": "25%"
     }
   },
   "image#special-card-3": {
     "props": {
-      "maxHeight": "200px"
+      "maxHeight": "200px",
+      "maxWidth": "25%"
     }
   },
   "image#special-card-4": {
     "props": {
-      "maxHeight": "200px"
+      "maxHeight": "200px",
+      "maxWidth": "25%"
     }
   }
 }
