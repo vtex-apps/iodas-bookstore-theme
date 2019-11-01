@@ -158,6 +158,9 @@
     }
   },
   "menu-item#highlights": {
+    "blocks": [
+      "submenu#highlights"
+    ],
     "props": {
       "id": "menu-item-highlights",
       "type": "custom",
@@ -169,6 +172,82 @@
         "noFollow": true,
         "tagTitle": "Highlights",
         "text": "Livros"
+      }
+    }
+  },
+  "submenu#highlights": {
+    "children": [
+      "menu#highlight-list"
+    ]
+  },
+  "menu#highlight-list": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#new-releases",
+      "menu-item#best-seller",
+      "menu-item#pre-sales",
+      "menu-item#see-more"
+    ]
+  },
+  "menu-item#new-releases": {
+    "props": {
+      "id": "menu-item-highlights-new-releases",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "new-releases",
+        "noFollow": true,
+        "tagTitle": "New Releases",
+        "text": "Lançamentos"
+      }
+    }
+  },
+  "menu-item#best-seller": {
+    "props": {
+      "id": "menu-item-highlights-best-sellers",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/best-sellers",
+        "noFollow": true,
+        "tagTitle": "Best Sellers",
+        "text": "Best Sellers"
+      }
+    }
+  },
+  "menu-item#pre-sales": {
+    "props": {
+      "id": "menu-item-highlights-pre-sales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pre-sales",
+        "noFollow": true,
+        "tagTitle": "Pre Sales",
+        "text": "Pré-venda"
+      }
+    }
+  },
+  "menu-item#see-more": {
+    "props": {
+      "id": "menu-item-highlights-see-more",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/see-more",
+        "noFollow": true,
+        "tagTitle": "See more",
+        "text": "Ver todos"
       }
     }
   },
