@@ -11,7 +11,7 @@
   },
   "menu-item#livros": {
     "blocks": [
-      "submenu#main"
+      "submenu#livros"
     ],
     "props": {
       "id": "menu-item-livros",
@@ -27,12 +27,116 @@
       }
     }
   },
-  "submenu#main": {
+  "submenu#livros": {
     "children": [
-      "flex-layout.row#submenu"
+      "flex-layout.row#submenu-livros"
     ]
   },
-  "submenu#livros": {
+  "flex-layout.row#submenu-livros": {
+    "children": [
+      "flex-layout.col#submenu-menu-livros",
+      "flex-layout.col#submenu-image-livros"
+    ]
+  },
+  "flex-layout.col#submenu-menu-livros": {
+    "children": [
+      "menu#sub-livros-mobile"
+    ]
+  },
+  "flex-layout.col#submenu-image-livros": {
+    "children": [
+      "image#submenu-image-livros"
+    ]
+  },
+  "image#submenu-image-livros": {
+    "props": {
+      "maxWidth": "300px"
+    }
+  },
+
+  "submenu#papelaria": {
+    "children": [
+      "flex-layout.row#submenu-papelaria"
+    ]
+  },
+  "flex-layout.row#submenu-papelaria": {
+    "children": [
+      "flex-layout.col#submenu-menu-papelaria",
+      "flex-layout.col#submenu-image-papelaria"
+    ]
+  },
+  "flex-layout.col#submenu-menu-papelaria": {
+    "children": [
+      "menu#sub-papelaria-mobile"
+    ]
+  },
+  "flex-layout.col#submenu-image-papelaria": {
+    "children": [
+      "image#submenu-image-papelaria"
+    ]
+  },
+  "image#submenu-image-papelaria": {
+    "props": {
+      "maxWidth": "300px"
+    }
+  },
+
+  "submenu#ebooks": {
+    "children": [
+      "flex-layout.row#submenu-ebooks"
+    ]
+  },
+  "flex-layout.row#submenu-ebooks": {
+    "children": [
+      "flex-layout.col#submenu-menu-ebooks",
+      "flex-layout.col#submenu-image-ebooks"
+    ]
+  },
+  "flex-layout.col#submenu-menu-ebooks": {
+    "children": [
+      "menu#sub-ebooks-mobile"
+    ]
+  },
+  "flex-layout.col#submenu-image-ebooks": {
+    "children": [
+      "image#submenu-image-ebooks"
+    ]
+  },
+  "image#submenu-image-ebooks": {
+    "props": {
+      "maxWidth": "300px"
+    }
+  },
+
+  "submenu#eletronicos": {
+    "children": [
+      "flex-layout.row#submenu-eletronicos"
+    ]
+  },
+  "flex-layout.row#submenu-eletronicos": {
+    "children": [
+      "flex-layout.col#submenu-menu-eletronicos",
+      "flex-layout.col#submenu-image-eletronicos"
+    ]
+  },
+  "flex-layout.col#submenu-menu-eletronicos": {
+    "children": [
+      "menu#sub-eletronicos-mobile"
+    ]
+  },
+  "flex-layout.col#submenu-image-eletronicos": {
+    "children": [
+      "image#submenu-image-eletronicos"
+    ]
+  },
+  "image#submenu-image-eletronicos": {
+    "props": {
+      "maxWidth": "300px"
+    }
+  },
+
+
+  "submenu#main": {
     "children": [
       "flex-layout.row#submenu"
     ]
@@ -65,7 +169,7 @@
   },
   "menu-item#papelaria": {
     "blocks": [
-      "submenu#main"
+      "submenu#papelaria"
     ],
     "props": {
       "id": "menu-item-papelaria",
@@ -88,7 +192,7 @@
   },
   "menu-item#ebooks": {
     "blocks": [
-      "submenu#main"
+      "submenu#ebooks"
     ],
     "props": {
       "id": "menu-item-ebooks",
@@ -106,7 +210,7 @@
   },
   "menu-item#eletronicos": {
     "blocks": [
-      "submenu#main"
+      "submenu#eletronicos"
     ],
     "props": {
       "id": "menu-item-eletronicos",
