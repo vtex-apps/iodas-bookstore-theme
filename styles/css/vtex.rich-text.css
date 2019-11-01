@@ -1,7 +1,10 @@
 .container--deals {
   color: #ffffff;
-  text-align: center;
-  justify-content: center;
+}
+
+.italic--deals {
+  text-align: right;
+  justify-content: right  ;
 }
 
 .container--deals .paragraph {

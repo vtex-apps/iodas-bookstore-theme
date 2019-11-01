@@ -31,23 +31,6 @@
     }
   },
 
-//   "product-summary.shelf": {
-//     "children": [
-//       "product-summary-name",
-//       "product-summary-price",
-//       "product-summary-buy-button",
-//       "stack-layout#prodsum",
-//       "product-rating-inline"
-//       "product-summary-space",
-//       "product-identifier.summary",
-//       "product-summary-add-to-list-button",
-//     ],
-//     "props": {
-//         "showSavings": true,
-//         "showListPrice": true
-//     }
-//   },
-
 "product-summary.shelf": {
     "children": [
     "product-summary-name",
@@ -55,24 +38,17 @@
     "product-summary-buy-button",
     "product-summary-image",
     "product-rating-inline"
-    ]
-},
-
-  "stack-layout#prodsum": {
-    "children": [
-      "product-summary-image",
-      "product-summary-specification-badges"
-    ]
-  },
-
-  "product-summary-specification-badges": {
+    ],
     "props": {
-      "specificationGroupName": "Group",
-      "specificationName": "On Sale",
-      "visibleWhen": "True",
-      "displayValue": "SPECIFICATION_NAME"
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": true,
+        "showBadge": true,
+        "labelSellingPrice": "POR",
+        "labelListPrice": "DE",
+        "showSavings": true
     }
-  },
+},
 
   "store.product-review-form": {
     "blocks": ["product-review-form"]

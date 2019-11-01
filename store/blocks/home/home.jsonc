@@ -18,7 +18,7 @@
         "submit": "ENVIAR"
     }
   },
-  
+
   "flex-layout.row#special-cards": {
     "children": [
       "flex-layout.col#special-card-1",
@@ -93,38 +93,11 @@
           }
         }
       },
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
-    }
-  },
 
   "image#special-campaign": {
     "title": "Campanha em destaque",
     "props": {
-        "src": "https://bookstoretheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/comics_home___b2ed109e89768692cd1a5102acae05fb.jpg",
+        "src": "https://uploaddeimagens.com.br/images/002/473/060/original/bannerviagens.png?1572632764",
         "maxWidth": "100%"
     }
   }

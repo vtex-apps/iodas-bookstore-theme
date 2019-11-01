@@ -1,7 +1,7 @@
 {
   "store.product": {
     "children": [
-      "stack-layout#product-outdoor", 
+      "stack-layout#product-outdoor",
       "flex-layout.row#product-main",
       "flex-layout.row#product-outdoor-shelf"
     ]
@@ -32,8 +32,8 @@
 
   "stack-layout#product-outdoor": {
     "children": [
-      "flex-layout.row#product-logo", 
-      "flex-layout.row#product-first-layer", 
+      "flex-layout.row#product-logo",
+      "flex-layout.row#product-first-layer",
       "flex-layout.row#product-second-layer"
     ],
     "props": {
@@ -54,7 +54,7 @@
 
   "flex-layout.col#product-logo": {
     "children": [
-      "image#product-logo"    
+      "image#product-logo"
     ],
     "props": {
       "horizontalAlign": "center",
@@ -81,7 +81,7 @@
 
   "flex-layout.col#product-first-layer": {
     "children": [
-      "image#product-first-layer"    
+      "image#product-first-layer"
     ],
     "props": {
       "horizontalAlign": "center",
