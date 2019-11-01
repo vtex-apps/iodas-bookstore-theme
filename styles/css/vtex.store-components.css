@@ -95,3 +95,11 @@
   transition: transform .5s ease;
   transform: scale(1.10);
 }
+
+.productDescriptionTitle {
+  display: none;
+}
+
+.productDescriptionContainer {
+  margin: 5px 0;
+}

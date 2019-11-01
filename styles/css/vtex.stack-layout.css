@@ -1,0 +1,10 @@
+.stackContainer--product-outdoor {
+    background-color: #ffb30f;
+}
+
+.stackItem--product-outdoor {
+    width: 100%;
+    top: none;
+    bottom: 0;
+}
+
