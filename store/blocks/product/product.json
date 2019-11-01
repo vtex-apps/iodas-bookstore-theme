@@ -1,28 +1,138 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#product-breadcrumb",
+      "stack-layout#product-outdoor", 
       "flex-layout.row#product-main",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers",
-      "flex-layout.row#product-description"
+      "flex-layout.row#product-outdoor-shelf"
     ]
   },
-  "flex-layout.row#product-breadcrumb": {
+
+  "flex-layout.row#product-outdoor-shelf": {
+    "children": [
+      "shelf#product-outdoor"
+    ],
     "props": {
-      "marginTop": 4
-    },
-    "children": ["breadcrumb"]
+      "fullWidth": true,
+      "marginBottom": 0
+    }
   },
+
+  "shelf#product-outdoor": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "titleText": "QUEM VIU, VIU TAMBÉM",
+      "maxItems": "4",
+      "paginationDotsVisibility": "hidden"      
+    }
+  },
+
+  "stack-layout#product-outdoor": {
+    "children": [
+      "flex-layout.row#product-logo", 
+      "flex-layout.row#product-first-layer", 
+      "flex-layout.row#product-second-layer"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "product-outdoor"
+    }
+  },
+
+  "flex-layout.row#product-logo": {
+    "children": [
+      "flex-layout.col#product-logo"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "product-outdoor-relative"
+    }
+  },
+
+  "flex-layout.col#product-logo": {
+    "children": [
+      "image#product-logo"    
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "top"
+    }
+  },
+
+  "image#product-logo": {
+    "props": {
+      "src": "https://uploaddeimagens.com.br/images/002/472/113/original/LOGO_BVRANCO_GRANDE_STAGE.png?1572618601",
+      "blockClass": "product-logo",
+      "maxWidth": "100%"
+    }
+  },
+
+  "flex-layout.row#product-first-layer": {
+    "children": [
+      "flex-layout.col#product-first-layer"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#product-first-layer": {
+    "children": [
+      "image#product-first-layer"    
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "bottom",
+      "width": "100%"
+    }
+  },
+
+  "image#product-first-layer": {
+    "props": {
+      "src": "https://uploaddeimagens.com.br/images/002/471/981/original/montanhas002.png?1572616488",
+      "blockClass": "product-first-layer",
+      "maxWidth": "100%"
+    }
+  },
+
+  "flex-layout.row#product-second-layer": {
+    "children": [
+      "flex-layout.col#product-second-layer"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#product-second-layer": {
+    "children": [
+      "image#product-second-layer"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "bottom",
+      "width": "100%"
+    }
+  },
+
+  "image#product-second-layer": {
+    "props": {
+      "src": "https://uploaddeimagens.com.br/images/002/471/980/original/cavaleiro002.png?1572616466",
+      "blockClass": "product-first-layer",
+      "maxWidth": "100%"
+    }
+  },
+
+
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,
       "rowGap": 7,
-      "marginTop": 4,
+      "blockClass": "product-main",
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 15
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
@@ -65,6 +175,7 @@
     },
     "children": [
       "product-name",
+      "product-description",
       "product-rating-summary",
       "product-identifier.product",
       "sku-selector",
@@ -72,8 +183,6 @@
       "product-price#product-details",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "product-separator",
-      "product-description",
       "product-separator",
       "share#default"
     ]
