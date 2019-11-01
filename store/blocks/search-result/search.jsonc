@@ -184,5 +184,17 @@
 
   "gallery": {
     "blocks": ["product-summary.shelf"]
-  }
+  },
+
+  "carousel#store-search": {
+      "props": {
+        "autoplaySpeed": 5,
+        "autoplay": true,
+        "banners": [
+        ],
+        "height": 480,
+        "showArrows": false,
+        "showDots": false
+      }
+    }
 }

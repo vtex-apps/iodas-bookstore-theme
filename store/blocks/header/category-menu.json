@@ -137,5 +137,243 @@
       "menu-item#category-clothing-hats",
       "menu-item#category-clothing-shoes"
     ]
+  },
+  "menu-item#livros-mobile": {
+    "blocks": [
+      "submenu.accordion#livros"
+    ],
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/books/d",
+        "tagTitle": "Livros",
+        "text": "Livros"
+      }
+    }
+  },
+  "menu-item#papelaria-mobile": {
+    "blocks": [
+      "submenu.accordion#papelaria"
+    ],
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/office-supplies/d",
+        "tagTitle": "Papelaria",
+        "text": "Papelaria"
+      }
+    }
+  },
+  "menu-item#ebooks-mobile": {
+    "blocks": [
+      "submenu.accordion#ebooks"
+    ],
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ebooks/d",
+        "tagTitle": "Ebooks",
+        "text": "Ebooks"
+      }
+    }
+  },
+  "menu-item#eletronicos-mobile": {
+    "blocks": [
+      "submenu.accordion#eletronicos"
+    ],
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/notebooks---pens/d",
+        "tagTitle": "Eletrônicos",
+        "text": "Eletrônicos"
+      }
+    }
+  },
+  "submenu.accordion#livros": {
+    "children": [
+      "menu#sub-livros-mobile"
+    ]
+  },
+  "menu#sub-livros-mobile": {
+    "children": [
+      "menu-item#comics",
+      "menu-item#travel",
+      "menu-item#fiction"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#comics": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livros/comics",
+        "tagTitle": "Quadrinhos",
+        "text": "Quadrinhos"
+      }
+    }
+  },
+  "menu-item#travel": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livros/travel",
+        "tagTitle": "Viagem",
+        "text": "Viagem"
+      }
+    }
+  },
+  "menu-item#fiction": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livros/fiction",
+        "tagTitle": "Ficção",
+        "text": "Ficção"
+      }
+    }
+  },
+  "submenu.accordion#papelaria": {
+    "children": [
+      "menu#sub-papelaria-mobile"
+    ]
+  },
+  "menu#sub-papelaria-mobile": {
+    "children": [
+      "menu-item#staplers",
+      "menu-item#papers",
+      "menu-item#clips"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#staplers": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/office-supplies/fiction",
+        "tagTitle": "Materias de Escritório",
+        "text": "Materias de Escritório"
+      }
+    }
+  },
+  "menu-item#papers": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/office-supplies/papers",
+        "tagTitle": "Papéis",
+        "text": "Papéis"
+      }
+    }
+  },
+  "menu-item#clips": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/office-supplies/clips---fasteners",
+        "tagTitle": "Materias de Escola",
+        "text": "Materias de Escola"
+      }
+    }
+  },
+  "submenu.accordion#ebooks": {
+    "children": [
+      "menu#sub-ebooks-mobile"
+    ]
+  },
+  "menu#sub-ebooks-mobile": {
+    "children": [
+      "menu-item#see-more"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#see-more": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Ver todos",
+        "text": "Ver todos"
+      }
+    }
+  },
+  "submenu.accordion#eletronicos": {
+    "children": [
+      "menu#sub-eletronicos-mobile"
+    ]
+  },
+  "menu#sub-eletronicos-mobile": {
+    "children": [
+      "menu-item#notebooks",
+      "menu-item#pencil",
+      "menu-item#pens"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#notebooks": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/notebooks--pens/notebooks",
+        "tagTitle": "Notebooks",
+        "text": "Notebooks"
+      }
+    }
+  },
+  "menu-item#pencil": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/notebooks--pens/pencil-cases",
+        "tagTitle": "Estojos",
+        "text": "Estojos"
+      }
+    }
+  },
+  "menu-item#pens": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/notebooks--pens/pens",
+        "tagTitle": "Canetas",
+        "text": "Canetas"
+      }
+    }
   }
 }
