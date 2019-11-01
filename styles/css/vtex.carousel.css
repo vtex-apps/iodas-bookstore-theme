@@ -6,3 +6,7 @@
   max-width: 1520px;
   position: inherit;
 }
+
+.containerImg div {
+  position: relative;
+}

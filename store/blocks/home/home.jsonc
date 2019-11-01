@@ -2,13 +2,8 @@
   "store.home": {
     "blocks": [
       "carousel#home",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "slider-layout#benefits",
-      "shelf#home",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "shelf#lancamentos",
       "newsletter"
     ]
   },
@@ -32,44 +27,21 @@
     }
   },
 
-  "shelf#home": {
-    "blocks": ["product-summary.shelf"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
-        "minItemsPerPage": 1.5,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "Top sellers"
+  "shelf#lancamentos": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByReleaseDateDESC",
+        "paginationDotsVisibility": "hidden",
+        "productList": {
+          "maxItems": 12,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1.5,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": "Lançamentos"
+        }
       }
-    }
-  },
-
-  "product-summary#home": {
-    "props": {
-      "isOneClickBuy": false,
-      "showBadge": true,
-      "badgeText": "OFF",
-      "buyButtonText": "Add to cart",
-      "displayBuyButton": "displayButtonAlways",
-      "showCollections": false,
-      "showListPrice": true,
-      "labelSellingPrice": "To",
-      "labelListPrice": "From",
-      "showLabels": true,
-      "showInstallments": true,
-      "showSavings": true,
-      "name": {
-        "showBrandName": true,
-        "showSku": true,
-        "showProductReference": true
-      }
-    }
-  },
-
+    },
   "info-card#home": {
     "props": {
       "id": "info-card-home",
