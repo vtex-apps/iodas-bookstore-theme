@@ -15,8 +15,7 @@
     "children": [
       "header-row#1-desktop",
       "header-row#2-desktop",
-      "header-row#3-desktop",
-      "header-row#4-desktop"
+      "header-row#3-desktop"
     ]
   },
 
@@ -39,34 +38,89 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "<strong>FRETE GRÁTIS</strong> para compras a partir de R$ 99,90"
     }
   },
   "header-row#3-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "header-spacer",
-      "vtex.menu@2.x:menu#institutional"
-    ],
-    "props": {
-      "blockClass": "menu-link",
-      "inverted": "true"
-    }
-  },
-  "header-row#4-desktop": {
-    "children": [
       "logo#desktop",
-      "vtex.menu@2.x:menu#category-menu",
-      "header-spacer",
+      "menu#header-main",
       "header-spacer",
       "search-bar",
-      "locale-switcher",
-      "login",
       "minicart"
     ],
     "props": {
-      "sticky": true,
-      "blockClass": "main-header"
+      "blockClass": "main-header",
+      "inverted": "true",
+      "sticky": true
+    }
+  },
+  "menu#header-main": {
+    "children": [
+      "menu-item#departments",
+      "menu-item#highlights",
+      "menu-item#brands",
+      "menu-item#blog"
+    ]
+  },
+  "menu-item#departments": {
+    "props": {
+      "id": "menu-item-departments",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/departments",
+        "noFollow": true,
+        "tagTitle": "Departments",
+        "text": "Departments"
+      }
+    }
+  },
+  "menu-item#highlights": {
+    "props": {
+      "id": "menu-item-highlights",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/highlights",
+        "noFollow": true,
+        "tagTitle": "Highlights",
+        "text": "Highlights"
+      }
+    }
+  },
+  "menu-item#brands": {
+    "props": {
+      "id": "menu-item-brands",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "Brands",
+        "text": "Brands"
+      }
+    }
+  },
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog",
+        "noFollow": true,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
     }
   },
   "logo#desktop": {
